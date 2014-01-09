@@ -1,0 +1,3234 @@
+<codeBook xmlns="http://www.icpsr.umich.edu/DDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2.2" ID="testing" xml-lang="en" xsi:schemaLocation="http://www.icpsr.umich.edu/DDI http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          testing
+        </titl>
+      </titlStmt>
+      <prodStmt>
+        <software version="4.0.9" date="2013-04-23">
+          Nesstar Publisher
+        </software>
+      </prodStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          Example DDI Document
+        </titl>
+        <IDNo>
+          testing
+        </IDNo>
+      </titlStmt>
+      <prodStmt>
+        <software version="4.0.9" date="2013-04-23">
+          Nesstar Publisher
+        </software>
+      </prodStmt>
+    </citation>
+    <stdyInfo>
+      <sumDscr>
+        <nation abbr="TZA">
+          Tanzania
+        </nation>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <collMode>
+          Face-to-face [f2f]
+        </collMode>
+        <sources/>
+      </dataColl>
+    </method>
+  </stdyDscr>
+  <fileDscr ID="F1" URI="testing.Nesstar?Index=0&amp;Name=registration_1000">
+    <fileTxt>
+      <fileName>
+        registration_1000.NSDstat
+      </fileName>
+      <dimensns>
+        <caseQnty>
+          1000
+        </caseQnty>
+        <varQnty>
+          15
+        </varQnty>
+      </dimensns>
+      <fileType>
+        Nesstar 200801
+      </fileType>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="V1" name="rdate" files="F1" intrvl="discrete">
+      <location width="11"/>
+      <labl>
+        Date of registration
+      </labl>
+      <qstn>
+        <qstnLit>
+          Whats todays Date
+        </qstnLit>
+      </qstn>
+      <universe clusion="I">
+        This is only relevant for children under 5
+      </universe>
+      <sumStat type="vald">
+        999
+      </sumStat>
+      <sumStat type="min">
+        2012-06-12
+      </sumStat>
+      <sumStat type="max">
+        2013-05-29
+      </sumStat>
+      <txt>
+        This is the date of participant registration
+      </txt>
+      <catgry>
+        <catValu>
+          2012-06-12
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-13
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-15
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-18
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-19
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-20
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-21
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-22
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-24
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-25
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-26
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-27
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-28
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-06-29
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-02
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-03
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-04
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-06
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-09
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-10
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-11
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-12
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-13
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-16
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-17
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-18
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-19
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-20
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-23
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-24
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-25
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-26
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-27
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-30
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-07-31
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-01
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-02
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-03
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-06
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-07
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-08
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-09
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-10
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-13
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-14
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-15
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-16
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-17
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-22
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-23
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-24
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-27
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-28
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-29
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-30
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-08-31
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-03
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-04
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-05
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-06
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-07
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-10
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-11
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-12
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-13
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-14
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-17
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-18
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-19
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-20
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-21
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-24
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-25
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-26
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-27
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-09-28
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-01
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-02
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-03
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-04
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-05
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-06
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-08
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-09
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-10
+        </catValu>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-11
+        </catValu>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-12
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-15
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-16
+        </catValu>
+        <catStat type="freq">
+          15
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-17
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-18
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-19
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-22
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-23
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-24
+        </catValu>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-29
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-30
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-10-31
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-01
+        </catValu>
+        <catStat type="freq">
+          13
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-02
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-05
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-06
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-07
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-08
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-09
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-12
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-13
+        </catValu>
+        <catStat type="freq">
+          12
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-14
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-15
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-16
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-19
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-20
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-21
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-22
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-23
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-26
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-27
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-28
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-29
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-11-30
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-12-03
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-12-04
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-12-05
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-12-06
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-12-07
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-12-10
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-12-11
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-12-12
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-12-13
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2012-12-14
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-08
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-09
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-10
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-11
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-14
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-15
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-17
+        </catValu>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-18
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-21
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-22
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-23
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-24
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-28
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-29
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-30
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-01-31
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-01
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-04
+        </catValu>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-05
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-06
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-07
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-08
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-11
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-12
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-13
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-14
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-15
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-16
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-18
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-19
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-20
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-21
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-22
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-23
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-25
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-27
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-02-28
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-01
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-02
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-04
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-05
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-06
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-07
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-08
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-09
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-11
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-12
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-13
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-14
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-15
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-16
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-18
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-19
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-20
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-21
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-22
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-23
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-25
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-26
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-03-27
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-03
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-04
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-05
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-06
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-08
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-09
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-10
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-11
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-12
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-13
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-15
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-16
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-17
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-18
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-19
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-20
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-22
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-23
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-24
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-25
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-26
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-27
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-29
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-04-30
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-01
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-02
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-03
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-04
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-07
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-09
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-10
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-11
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-13
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-14
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-15
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-16
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-18
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-20
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-21
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-22
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-23
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-24
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-25
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2013-05-29
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="character" formatname="Nesstar.date" schema="other" category="date"/>
+    </var>
+    <var ID="V2" name="Mzima_Id" files="F1" dcml="0" intrvl="contin">
+      <location width="13"/>
+      <labl>
+        Mzima DSS Id
+      </labl>
+      <valrng>
+        <range min="1682784" max="37425444930"/>
+      </valrng>
+      <sumStat type="vald">
+        1000
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <sumStat type="min">
+        1682784
+      </sumStat>
+      <sumStat type="max">
+        37425444930
+      </sumStat>
+      <sumStat type="mean">
+        2253385711.837
+      </sumStat>
+      <sumStat type="stdev">
+        2171343571.72
+      </sumStat>
+      <varFormat type="numeric" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V3" name="r1" files="F1" dcml="0" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Did person give informed consent for registration and questionnaire?
+      </labl>
+      <valrng>
+        <range min="1" max="2"/>
+      </valrng>
+      <sumStat type="vald">
+        998
+      </sumStat>
+      <sumStat type="invd">
+        2
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          Yes
+        </labl>
+        <catStat type="freq">
+          987
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <labl>
+          No
+        </labl>
+        <catStat type="freq">
+          11
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V4" name="r2" files="F1" dcml="0" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Did person give informed consent for research blood sample?
+      </labl>
+      <valrng>
+        <range min="1" max="2"/>
+      </valrng>
+      <sumStat type="vald">
+        999
+      </sumStat>
+      <sumStat type="invd">
+        1
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          Yes
+        </labl>
+        <catStat type="freq">
+          967
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <labl>
+          No
+        </labl>
+        <catStat type="freq">
+          32
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V5" name="r3" files="F1" dcml="0" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Did person give informed consent for storage of research blood sample?
+      </labl>
+      <valrng>
+        <range min="1" max="2"/>
+      </valrng>
+      <sumStat type="vald">
+        999
+      </sumStat>
+      <sumStat type="invd">
+        1
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          Yes
+        </labl>
+        <catStat type="freq">
+          961
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <labl>
+          No
+        </labl>
+        <catStat type="freq">
+          38
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V6" name="r4" files="F1" dcml="0" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Did person give informed consent for VCT?
+      </labl>
+      <valrng>
+        <range min="1" max="2"/>
+      </valrng>
+      <sumStat type="vald">
+        999
+      </sumStat>
+      <sumStat type="invd">
+        1
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          Yes
+        </labl>
+        <catStat type="freq">
+          907
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <labl>
+          No
+        </labl>
+        <catStat type="freq">
+          92
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V7" name="r5" files="F1" dcml="0" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Did person give informed consent for physical measurements and chronic disease s
+      </labl>
+      <valrng>
+        <range min="1" max="2"/>
+      </valrng>
+      <sumStat type="vald">
+        999
+      </sumStat>
+      <sumStat type="invd">
+        1
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          Yes
+        </labl>
+        <catStat type="freq">
+          989
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <labl>
+          No
+        </labl>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V8" name="r6" files="F1" dcml="0" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Did person give informed consent for home interview on diet habits?
+      </labl>
+      <valrng>
+        <range min="1" max="2"/>
+      </valrng>
+      <sumStat type="vald">
+        997
+      </sumStat>
+      <sumStat type="invd">
+        3
+      </sumStat>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          Yes
+        </labl>
+        <catStat type="freq">
+          989
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <labl>
+          No
+        </labl>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V9" name="r7" files="F1" intrvl="discrete">
+      <location width="4"/>
+      <labl>
+        Staff Initial at Identification desk
+      </labl>
+      <sumStat type="vald">
+        1000
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          AKA
+        </catValu>
+        <catStat type="freq">
+          25
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ALY
+        </catValu>
+        <catStat type="freq">
+          60
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ARI
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          CAN
+        </catValu>
+        <catStat type="freq">
+          169
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          CNA
+        </catValu>
+        <catStat type="freq">
+          17
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          CNG
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          EEL
+        </catValu>
+        <catStat type="freq">
+          118
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          FKA
+        </catValu>
+        <catStat type="freq">
+          27
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          HAS
+        </catValu>
+        <catStat type="freq">
+          72
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          HKI
+        </catValu>
+        <catStat type="freq">
+          78
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          HSA
+        </catValu>
+        <catStat type="freq">
+          86
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          KKI
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          MNG
+        </catValu>
+        <catStat type="freq">
+          19
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          NIC
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OME
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OMW
+        </catValu>
+        <catStat type="freq">
+          13
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          PRU
+        </catValu>
+        <catStat type="freq">
+          265
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          RKI
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          TMA
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          VMU
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          VVA
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          YSH
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V10" name="r8" files="F1" intrvl="discrete">
+      <location width="3"/>
+      <labl>
+        Staff initial at Anthropometry
+      </labl>
+      <sumStat type="vald">
+        976
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          ACL
+        </catValu>
+        <catStat type="freq">
+          51
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          AHA
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENG
+        </catValu>
+        <catStat type="freq">
+          155
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ING
+        </catValu>
+        <catStat type="freq">
+          118
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          KGA
+        </catValu>
+        <catStat type="freq">
+          144
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          LMU
+        </catValu>
+        <catStat type="freq">
+          187
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          MFA
+        </catValu>
+        <catStat type="freq">
+          153
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          SLY
+        </catValu>
+        <catStat type="freq">
+          163
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          SRA
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V11" name="r9" files="F1" intrvl="discrete">
+      <location width="4"/>
+      <labl>
+        Staff initial Blood glucose
+      </labl>
+      <sumStat type="vald">
+        964
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          ACL
+        </catValu>
+        <catStat type="freq">
+          50
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          AHA
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENG
+        </catValu>
+        <catStat type="freq">
+          148
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ING
+        </catValu>
+        <catStat type="freq">
+          116
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          KGA
+        </catValu>
+        <catStat type="freq">
+          141
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          LMU
+        </catValu>
+        <catStat type="freq">
+          188
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          MFA
+        </catValu>
+        <catStat type="freq">
+          153
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          SLY
+        </catValu>
+        <catStat type="freq">
+          163
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          SRA
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V12" name="r10" files="F1" intrvl="discrete">
+      <location width="4"/>
+      <labl>
+        Staff initial for Research blood sample
+      </labl>
+      <sumStat type="vald">
+        955
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          ACL
+        </catValu>
+        <catStat type="freq">
+          50
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          AHA
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENG
+        </catValu>
+        <catStat type="freq">
+          147
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ING
+        </catValu>
+        <catStat type="freq">
+          112
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          KGA
+        </catValu>
+        <catStat type="freq">
+          140
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          LMU
+        </catValu>
+        <catStat type="freq">
+          188
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          MFA
+        </catValu>
+        <catStat type="freq">
+          150
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          SLY
+        </catValu>
+        <catStat type="freq">
+          163
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          SRA
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V13" name="r11" files="F1" intrvl="discrete">
+      <location width="4"/>
+      <labl>
+        staff initial at Questionnaire room
+      </labl>
+      <sumStat type="vald">
+        982
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          A
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ACL
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          AKA
+        </catValu>
+        <catStat type="freq">
+          77
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ALY
+        </catValu>
+        <catStat type="freq">
+          63
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ARI
+        </catValu>
+        <catStat type="freq">
+          20
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          CAN
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          CCN
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          CMD
+        </catValu>
+        <catStat type="freq">
+          36
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          EEL
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          FKA
+        </catValu>
+        <catStat type="freq">
+          104
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          HKI
+        </catValu>
+        <catStat type="freq">
+          27
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          JNK
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          JPA
+        </catValu>
+        <catStat type="freq">
+          55
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          KKI
+        </catValu>
+        <catStat type="freq">
+          23
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          LBA
+        </catValu>
+        <catStat type="freq">
+          114
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          MMI
+        </catValu>
+        <catStat type="freq">
+          14
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          MML
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          MNG
+        </catValu>
+        <catStat type="freq">
+          39
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          NIC
+        </catValu>
+        <catStat type="freq">
+          53
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          NID
+        </catValu>
+        <catStat type="freq">
+          13
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          NJS
+        </catValu>
+        <catStat type="freq">
+          71
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          NKU
+        </catValu>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          NMU
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OME
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          OMW
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          RKI
+        </catValu>
+        <catStat type="freq">
+          70
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          TGO
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          TMA
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          VMU
+        </catValu>
+        <catStat type="freq">
+          25
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          VVA
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          YHS
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          YSA
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          YSH
+        </catValu>
+        <catStat type="freq">
+          16
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ZEP
+        </catValu>
+        <catStat type="freq">
+          94
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          mng
+        </catValu>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          r11
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V14" name="r12" files="F1" intrvl="discrete">
+      <location width="3"/>
+      <labl>
+        Initial of VCT counsellor
+      </labl>
+      <sumStat type="vald">
+        887
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          ACL
+        </catValu>
+        <catStat type="freq">
+          37
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          AHA
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          CCN
+        </catValu>
+        <catStat type="freq">
+          18
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          CNG
+        </catValu>
+        <catStat type="freq">
+          163
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          ENG
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          HRM
+        </catValu>
+        <catStat type="freq">
+          28
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          JMI
+        </catValu>
+        <catStat type="freq">
+          180
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          KKI
+        </catValu>
+        <catStat type="freq">
+          93
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          LAN
+        </catValu>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          MMI
+        </catValu>
+        <catStat type="freq">
+          86
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          NJS
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          TMA
+        </catValu>
+        <catStat type="freq">
+          42
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          VMU
+        </catValu>
+        <catStat type="freq">
+          88
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          YHS
+        </catValu>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          YSA
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          YSH
+        </catValu>
+        <catStat type="freq">
+          134
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          `
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+    <var ID="V15" name="r13" files="F1" intrvl="discrete">
+      <location width="3"/>
+      <labl>
+        Clinician initial
+      </labl>
+      <sumStat type="vald">
+        972
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <catgry>
+        <catValu>
+          DDN
+        </catValu>
+        <catStat type="freq">
+          137
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          GEM
+        </catValu>
+        <catStat type="freq">
+          64
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          IHU
+        </catValu>
+        <catStat type="freq">
+          154
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          LAN
+        </catValu>
+        <catStat type="freq">
+          353
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          LAW
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          SRA
+        </catValu>
+        <catStat type="freq">
+          171
+        </catStat>
+      </catgry>
+      <catgry>
+        <catValu>
+          WEL
+        </catValu>
+        <catStat type="freq">
+          91
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    <qstn><qstnLit>TODO: SET THE LITERAL TEXT HERE</qstnLit></qstn><txt>TODO: SET THE DESCRIPTION_TAG</txt></var>
+  </dataDscr>
+</codeBook>
