@@ -12,11 +12,11 @@ The populate_DDI_XML.py script takes two inputs:
 
 If you don't have Python installed, install Python 2.7.6 from [here](http://www.python.org/download/releases/2.7.6/).
 
-...After installing python, check that it's in your path by running `python --version` again. If it can't find python, add python to your bin by either
-..* Adding the following lines to your .bash_profile:
+⋅⋅After installing python, check that it's in your path by running `python --version` again. If it can't find python, add python to your bin by either
+⋅⋅* Adding the following lines to your .bash_profile:
 `PATH="/path/to/python/bin:${PATH}"`
 `export PATH`
-..* Running `export PATH=$PATH:/path/to/python/bin`.
+⋅⋅* Running `export PATH=$PATH:/path/to/python/bin`.
 
 2. Install pip from [here](http://www.pip-installer.org/en/latest/installing.html).
 3. Install virtualenv by running `pip install virtualenv`.
