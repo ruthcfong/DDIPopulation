@@ -10,39 +10,8 @@ import xlrd
 from openpyxl.workbook import Workbook
 from openpyxl.reader.excel import load_workbook, InvalidFileException
 
-DEBUG = True
-
-REQUIRED_NUM_ARGS = 2
-OPTIONAL_NUM_ARGS = 1
-EXCEL_ARG_INDEX = 1
-XML_ARG_INDEX = 2
-OUTPUT_XML_ARG_INDEX = 3
-
-VAR_TAG = "var"
-DESCRIPTION_TAG = "txt"
-QUESTION_TAG = "qstn"
-LITERAL_QUESTION_TAG = "qstnLit"
-
-SEARCH_FULL_TREE = ".//"
-IGNORE_NAMESPACE = "{*}"
-
-OUTPUT_XML_PREFIX = "ddi_"
-
-OLD_EXCEL_EXTENSION = "xls"
-
-SURVEY_SHEET_NAME = "survey"
-
-DESCRIPTION_COLUMN_NAME = "name"
-LITERAL_QUESTION_COLUMN_NAME = "label::English"
-
-NULL_INDEX = -1
-
-EXAMPLE_FILES = "example_files/"
-DEBUG_XML_NAME = "testing.xml"
-DEBUG_XML = EXAMPLE_FILES + DEBUG_XML_NAME
-DEBUG_OUTPUT_XML_NAME = OUTPUT_XML_PREFIX + DEBUG_XML_NAME
-DEBUG_EXCEL_FILE_NAME = "example.xlsx"
-DEBUG_EXCEL = EXAMPLE_FILES + DEBUG_EXCEL_FILE_NAME
+# constants for this script
+import constants
 
 def open_xls_as_xlsx(filename):
     '''
@@ -73,6 +42,7 @@ def main():
     '''
     TODO for version 1:
     - Remove DEBUG variable (or turn it off)
+    - Use the 'varQnty' in the XML file to check the number of variables
 
     TODO for version 2:
     - add command-line option to universe
@@ -99,6 +69,9 @@ def main():
         # handle optional command-line argument(s)
         if num_args > REQUIRED_NUM_ARGS + 1:
             xml_output_file_name = sys.argv[OUTPUT_XML_ARG_INDEX]
+        else:
+            orig_file_name = xml_file_name.split("/")[-1]
+            xml_output_file_name = ''.join([OUTPUT_XML_PREFIX,orig_file_name])
 
     # read Excel file
     try:
@@ -125,9 +98,11 @@ def main():
     root = parsed_xml_document.getroot()
     all_vars = root.findall(".//{*}%s" % VAR_TAG)
 
+    xml_var_num = len(all_vars)
+
     # Check same number of rows
     # TODO: Test this
-    if len(survey_worksheet.rows) - 1 != len(all_vars):
+    if len(survey_worksheet.rows) - 1 != xml_var_num:
         print "There aren't the same number of variables in the Excel spreadsheet and the XML file"
         return
     
