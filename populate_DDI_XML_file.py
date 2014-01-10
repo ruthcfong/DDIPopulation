@@ -11,7 +11,7 @@ from openpyxl.workbook import Workbook
 from openpyxl.reader.excel import load_workbook, InvalidFileException
 
 # constants for this script
-import constants
+from constants import *
 
 def open_xls_as_xlsx(filename):
     '''
@@ -96,12 +96,17 @@ def main():
     parsed_xml_document = etree.parse(xml_file)
 
     root = parsed_xml_document.getroot()
-    all_vars = root.findall(".//{*}%s" % VAR_TAG)
+    all_vars = root.findall("%s%s%s" % (SEARCH_FULL_TREE, IGNORE_NAMESPACE, VAR_TAG))
 
     xml_var_num = len(all_vars)
 
+    # Validate that there are the right amount of variables:
+    xml_var_qty = int(root.find("%s%s%s" % (SEARCH_FULL_TREE, IGNORE_NAMESPACE, VAR_QTY_TAG)).text)
+    if xml_var_num != xml_var_qty:
+        print "The number of variables denoted by the %s tag does not equal the number of %s elements in the XML file" % (VAR_QTY_TAG, VAR_TAG)
+        return
+
     # Check same number of rows
-    # TODO: Test this
     if len(survey_worksheet.rows) - 1 != xml_var_num:
         print "There aren't the same number of variables in the Excel spreadsheet and the XML file"
         return

@@ -23,6 +23,8 @@ After installing python, check that it's in your path by running `python --versi
 * Install pip from [here](http://www.pip-installer.org/en/latest/installing.html).
 * Install virtualenv by running `pip install virtualenv`.
 
+For details on using pip and virtualenv, look [here](https://github.com/ruthcfong/coding-tricks#development-tools).
+
 ### Installing dependencies in virtualenv
 * Create a virtual environment called `venv` by running `virtualenv venv` inside the top-level directory of this project.
 * Activate your virtual environment by typing `source venv/bin/activate`.

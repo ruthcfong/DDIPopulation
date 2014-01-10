@@ -10,6 +10,7 @@ OUTPUT_XML_ARG_INDEX = 3
 
 # XML tags for DDI schema
 VAR_TAG = "var"
+VAR_QTY_TAG = "varQnty"
 DESCRIPTION_TAG = "txt"
 QUESTION_TAG = "qstn"
 LITERAL_QUESTION_TAG = "qstnLit"
