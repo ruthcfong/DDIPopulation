@@ -40,10 +40,6 @@ def open_xls_as_xlsx(filename):
 
 def main():
     '''
-    TODO for version 1:
-    - Remove DEBUG variable (or turn it off)
-    - Use the 'varQnty' in the XML file to check the number of variables
-
     TODO for version 2:
     - add command-line option to universe
     - add --help flag
