@@ -38,4 +38,4 @@ For details on using pip and virtualenv, look [here](https://github.com/ruthcfon
 ## Running the script
 Run `python populate_DDI_XML.py /path/of/excel/file /path/of/XML/file [/path/of/output/file]`, where /path/of/output/file is optional.
 
-For example, you can run `python populate_DDI_XML.py example/example_excel.xlsx example/example_xml.xml` and the output XML file `output_example_xml.xml` will be created in the current directory.
+For example, you can run `python populate_DDI_XML.py examples/example_excel.xlsx examples/example_xml.xml` and the output XML file `output_example_xml.xml` will be created in the current directory.
