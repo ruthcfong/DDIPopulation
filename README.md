@@ -11,7 +11,7 @@ The populate_DDI_XML.py script takes two inputs:
 ### Clone to Repository
 Make sure git is installed.
 
-Then, run "git clone git@github.com:ruthcfong/coding-tricks.git" to clone the repository to your local machine.
+Then, run `git clone git@github.com:ruthcfong/DDIPopulation.git` to clone the repository to your local machine.
 
 ### Python Installation
 Check if you have Python installed by running `python --version`.
